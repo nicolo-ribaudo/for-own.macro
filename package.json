@@ -1,0 +1,35 @@
+{
+  "name": "for-own.macro",
+  "version": "0.0.0",
+  "description": "A babel-macro that makes for-in only visit own properties",
+  "keywords": ["babel-plugin-macros"],
+  "main": "src/index.js",
+  "files": ["src", "LICENSE"],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name": "Nicolò Ribaudo",
+    "url": "https://github.com/nicolo-ribaudo"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-macros": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-plugin-tester": "^6.0.0",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "testMatch": ["**/test/index.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolo-ribaudo/for-own.macro"
+  },
+  "bugs": {
+    "url": "https://github.com/nicolo-ribaudo/for-own.macro/issues"
+  },
+  "homepage": "https://github.com/nicolo-ribaudo/for-own.macro#readme"
+}
