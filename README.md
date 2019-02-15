@@ -1,6 +1,10 @@
-# for-own.macro
+<div align="center">
+  <h1>for-own.macro</h1>
 
-> A babel-macro that makes for-in only visit own properties
+  A babel-macro that makes for-in only visit own properties
+</div>
+
+<hr />
 
 ## The problem
 
