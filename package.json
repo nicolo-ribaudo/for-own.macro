@@ -1,10 +1,15 @@
 {
   "name": "for-own.macro",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A babel-macro that makes for-in only visit own properties",
-  "keywords": ["babel-plugin-macros"],
+  "keywords": [
+    "babel-plugin-macros"
+  ],
   "main": "src/index.js",
-  "files": ["src", "LICENSE"],
+  "files": [
+    "src",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "jest"
   },
@@ -22,7 +27,9 @@
     "jest": "^24.1.0"
   },
   "jest": {
-    "testMatch": ["**/test/index.js"]
+    "testMatch": [
+      "**/test/index.js"
+    ]
   },
   "repository": {
     "type": "git",
