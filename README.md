@@ -9,7 +9,7 @@
 ## The problem
 
 `for ... in` statements get enumerable keys from the whole prototype chain.
-To prevent bugs, it is reccomented to write loops like this:
+To prevent bugs, it is recommended to write loops like this:
 ```js
 for (const key in obj) {
   if (obj.hasOwnProperty(key)) {
